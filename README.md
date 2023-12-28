@@ -1,13 +1,12 @@
-# Python Quiz Game
- A quiz game about books in Python language.
-This project is a quiz game that asks questions with 4 options about books and their authors.
+# 디지털 문해력 테스트
+쓰기, 어휘, 배경지식, 디지털독해 분야별로 테스트
 
-In the game, the number of correct and incorrect answers given by the player is kept and the score is calculated.
+분야별로 4문제, 총 16문제 응시
 
-At the end of the game, the score information and a success message are displayed to the player in the message box.
+테스트 종료 후, 디지털 문해력 단계 판단 가능
 
-Tkinter was used for the GUI in the project.
+![Screenshot_1](https://github.com/juyeon6273/tree/assets/106322912/8953ea1c-527a-40a7-a839-66b10c829c84)
+)
 
-![Screenshot_1](https://user-images.githubusercontent.com/93487264/213873380-5dba8530-1349-4eca-9052-57de4959ab7e.png)
-
-![Screenshot_1](https://user-images.githubusercontent.com/93487264/213873922-4ef76573-31f3-4900-860d-776ce511511b.png)
+![Screenshot_1]((https://github.com/juyeon6273/tree/assets/106322912/1b1aeb4b-2442-48f1-ae09-fa4705eae1ff)
+)
