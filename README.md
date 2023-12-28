@@ -6,7 +6,7 @@
 테스트 종료 후, 디지털 문해력 단계 판단 가능
 
 ![Screenshot_1](https://github.com/juyeon6273/tree/assets/106322912/8953ea1c-527a-40a7-a839-66b10c829c84)
-)
 
-![Screenshot_1]((https://github.com/juyeon6273/tree/assets/106322912/1b1aeb4b-2442-48f1-ae09-fa4705eae1ff)
-)
+
+![Screenshot_1](https://github.com/juyeon6273/tree/assets/106322912/1b1aeb4b-2442-48f1-ae09-fa4705eae1ff)
+
