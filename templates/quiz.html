@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>디지털 문해력 퀴즈</title>
+</head>
+<body>
+    <h2>퀴즈</h2>
+    <form method="POST" action="/quiz">
+        <p>{{ question_data.question }}</p>
+        <ul>
+            {% for option in question_data.options %}
+                <li>
+                    <input type="radio" name="option" value="{{ loop.index }}" id="option{{ loop.index }}">
+                    <label for="option{{ loop.index }}">{{ option }}</label>
+                </li>
+            {% endfor %}
+        </ul>
+        <button type="submit" class="btn btn-primary">다음</button>
+    </form>
+</body>
+</html>

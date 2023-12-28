@@ -1,0 +1,772 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹사이트 메인페이지</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'pretendard', sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+        }
+
+        #logo {
+            margin-left: 363px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #left-container {
+            /* flex: 6;
+            padding: 20px; */
+            position:relative;
+            overflow: hidden;
+        }
+
+        #left-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #left-container a {
+            width: 378px;
+            height: 72px;
+            margin-top: 20px;
+            color: white;
+            border-radius: 50px; /* 수정: 100px -> 50px로 변경 */
+            background-color: #F75A28;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #left-container .innerText {
+            position: absolute;
+
+            /* top:
+            left: */
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        #left-container .innerText .title{
+            color: #FFF;
+            font-family: Pretendard;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        #left-container .innerText .content{
+            color: #FFF;
+            font-family: Pretendard;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px; /* 180% */
+        }
+
+        #right-container {
+            flex: 4;
+            background-color: rgb(255, 68, 0);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh; 100% 높이를 차지하도록 설정 */
+        }
+
+        #right-container button {
+            width: 306px;
+            height: 72px;
+            margin-top: 20px;
+            color: #F75A28;
+            border-radius: 50px; /* 수정: 100px -> 50px로 변경 */
+            background-color: #ffffff;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #right-container text{
+            color: #FFF;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        #right-container text{
+            color: #FFF;
+            font-family: Pretendard;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px; /* 180% */
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="logo">나무증권</div>
+    </header>
+
+    <div id="container">
+        <div id="left-container">
+            <div class="innerText">
+
+                <span class="title">나무증권의 2030 문해력 테스트</span>
+                <span class="content">나무증권은 AI를 활용한 문해력 테스트를 통하여, 디지털 문해력을 갖춘 2030 성인 양성으로 나아가고자 합니다. 이러한 2030 문해력 테스트를 통하여, 사용자는 디지털 문해력과 관련된 역량을 확인할 수 있습니다. 30분간 16문제로 일상생활 속 자주 볼 수 있는 문제를 기반으로, 자신의 문해력 상태를 확인해보세요.</span>
+                <a href='file://C:/Users/pc/Desktop/visual%20studio%20code.html'>2030 문해력 테스트 시작하기</a>
+            
+            </div>
+            <img src="https://cdn.discordapp.com/attachments/1189500347367047201/1190012489409245305/leftcontainer_img.jpg?ex=65a0407e&is=658dcb7e&hm=e5e866d21c51f3e14f81ba809ecfe8fa0c95d353a674d55b6b3bbb78c7384d2f&" alt="임의의 이미지">
+            
+            </div>
+        <div id="right-container">
+            <button onclick="window.location.href='페이지2URL'">문해력 솔루션 확인하기</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<html lang="ko">
+
+<head>
+   
+    <meta charset="utf-8">
+    <title>나무증권 - 문해력 테스트 </title>
+    <meta name="description" content="나무증권">
+    <link rel="icon" href="/favicon.ico">
+    
+    <meta property="og:image" content="/media/default/quiz-thumbnail.png">
+    
+    <link rel="canonical" href="https://www.quizland.kr/quiz/203/">
+    
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NDL8242');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Adsense -->
+    <script data-ad-client="ca-pub-3334034318594694" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/static/html/quiz/style.css">
+    
+    <link rel="stylesheet" href="/static/templates/layout.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDL8242" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header>
+      <div style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.60); border-radius: 8px"></div>
+            <div class="nav-bar-area"></div>
+        </div>
+        
+
+        <script>
+            switch (location.pathname) {
+                case "/":
+                    $("#nav-home").addClass("active");
+                    break;
+                case "/quiz/create/":
+                    $("#nav-create").addClass("active");
+                    break;
+            }
+            function getSignupURL() {
+                if (location.pathname == "/accounts/signup/" || location.pathname == "/accounts/login/" || location.pathname == "/accounts/forgot-password/") {
+                    return "/accounts/signup/" + location.search;
+                }
+                else if (location.pathname == "/") {
+                    return "/accounts/signup/";
+                }
+                else {
+                    return "/accounts/signup/?redirect=" + location.pathname;
+                }
+            }
+            function getLoginURL() {
+                if (location.pathname == "/accounts/signup/" || location.pathname == "/accounts/login/" || location.pathname == "/accounts/forgot-password/") {
+                    return "/accounts/login/" + location.search;
+                }
+                else if (location.pathname == "/") {
+                    return "/accounts/login/";
+                }
+                else {
+                    return "/accounts/login/?redirect=" + location.pathname;
+                }
+            }
+            function goSignup() {
+                location = getSignupURL();
+            }
+            function goLogin() {
+                location = getLoginURL();
+            }
+            $("#goSignup").attr("href", getSignupURL());
+            $("#goLogin").attr("href", getLoginURL());
+        </script>
+
+        <script>
+            function fillZero(int) {
+                str = String(int)
+                if (str.length == 1) {
+                    return "0" + str;
+                }
+                return str
+            }
+            function datetime(timestamp) {
+                dt = new Date(timestamp * 1000);
+                year = dt.getFullYear();
+                month = fillZero(dt.getMonth() + 1);
+                date = fillZero(dt.getDate());
+                hours = fillZero(dt.getHours());
+                minutes = fillZero(dt.getMinutes());
+                seconds = fillZero(dt.getSeconds());
+                return year + "." + month + "." + date + ". " + hours + ":" + minutes + ":" + seconds;
+            }
+            function shorten(string, length = 12) {
+                if (string.length > length) {
+                    string = string.slice(0, length) + "...";
+                }
+                return string;
+            }
+            function showNameTag(target, profileimage, username, verified) {
+                $(target).find("#user-profile-image").attr("src", profileimage);
+                if (username.includes("#")) {
+                    if (username.includes("(")) {
+                        account_username = username.split("(")[0];
+                        account_type = username.split("$")[1].split("#")[0];
+                        social_username = username.split("#")[1].slice(0, -1);
+                        displayname = account_username + "(" + social_username + ")";
+                        $(target).find("#user-profile-image").attr("title", displayname);
+                        $(target).find("#user-username").text(shorten(account_username)).attr("title", displayname);
+                    }
+                    else {
+                        account_type = username.split("$")[1].split("#")[0];
+                        social_username = username.split("#")[1];
+                        $(target).find("#user-profile-image").attr("title", social_username);
+                        $(target).find("#user-username").text(shorten(social_username)).attr("title", social_username);
+                    }
+                    $(target).find("#user-account-type").attr("src", "/static/img/" + account_type + "-account.png").attr("title", account_type + " 계정").show();
+                }
+                else {
+                    if (username.includes("(")) {
+                        account_username = username.split("(")[0];
+                        $(target).find("#user-profile-image").attr("title", username);
+                        $(target).find("#user-username").text(shorten(account_username)).attr("title", username);
+                    }
+                    else {
+                        $(target).find("#user-profile-image").attr("title", username);
+                        $(target).find("#user-username").text(shorten(username)).attr("title", username);
+                    }
+                }
+                if (verified) {
+                    $(target).find("#user-username").css('color', 'red');
+                    $(target).find("#user-verified").show();
+                }
+            }
+        </script>
+    </header>
+
+    <main>
+        
+      <div class="overlay">
+        <div class="card info-wrap">
+          <div class="thumbnail">
+          </div>
+      
+          <div id="mid_content" style="display: flex; justify-content: space-between;">
+          <div id="side_content_box">나무증권</div>
+      
+            <div id="side_right" class="container">
+              <div id="side_right_box"><!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>퀴즈와 시계</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            text-align: center;
+                            margin: 20px;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                    
+                
+                    <div id="quiz-progress"></div>
+                    <div id="clock"></div>
+                
+                    <script>
+                        function updateQuizProgress(currentQuestion, totalQuestions) {
+                            var progress = (currentQuestion / totalQuestions) * 100;
+                            document.getElementById("quiz-progress").innerHTML = "퀴즈 진행률: " + progress.toFixed(2) + "%";
+                        }
+                
+                        function updateClock() {
+                            var currentTime = new Date();
+                            var hours = currentTime.getHours();
+                            var minutes = currentTime.getMinutes();
+                            var seconds = currentTime.getSeconds();
+                            var formattedTime = hours + ":" + minutes + ":" + seconds;
+                            document.getElementById("clock").innerHTML = "현재 시간: " + formattedTime;
+                        }
+                
+                        function startQuiz(totalQuestions) {
+                            var currentQuestion = 0;
+                
+                            setInterval(function() {
+                                currentQuestion++;
+                                if (currentQuestion <= totalQuestions) {
+                                    updateQuizProgress(currentQuestion, totalQuestions);
+                                } else {
+                                    clearInterval();
+                                }
+                            }, 1000);
+                
+                            setInterval(updateClock, 1000);
+                        }
+                
+                        // 시작 시 퀴즈와 시계 업데이트 시작
+                        startQuiz(5); // 총 퀴즈 문제 수를 넣어주세요
+                    </script>
+                
+                </body>
+                </html>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+        .container {
+          display: flex;
+          justify-content: flex-end;
+        }
+      </style>
+      
+
+
+  
+
+<div class="parent">
+    <div class="right"></div>
+</div>
+</div>
+
+
+      <div class="info-header">
+        
+          
+        </div>
+        <hr>
+        <div class="info-explanation">
+          <!--퀴즈 설명-->
+        </div>
+      </div>
+     
+    <div class="quiz-explanation">
+      <!--퀴즈 설명-->
+    </div>
+  </div>
+  <div class="quiz-progress-bar"></div>
+</div>
+
+<ins name="상단 모바일 광고 1" class="adfit_area" mobile="mobile_banner_1" style="margin-top: -45px;"></ins>
+
+<div class="main-content">
+  <div class="content-wrap" id="question_default" style="display: none;">
+    <div class="card question-wrap">
+      <div class="question-img-wrap">
+        <img class="question-img">
+        <hr>
+      </div>
+      <div class="question-number">
+        <!--문제 번호-->
+      </div>
+      <div class="question">
+        <!--문제 내용-->
+      </div>
+    </div>
+    <html>
+      <textarea id="test" style="width:100%;height:30vh;"></textarea>
+    </html>
+    <script>
+      const test=document.querySelector('#test');
+      test.innerHTML='';
+    </script>
+
+    <div class="card answer-wrap">
+    </div>
+  </div>
+  <ins name="상단 모바일 광고 2" class="adsense_area" mobile="mobile_banner_1"></ins>
+  <div class="control-wrap">
+    <div class="card control-button" id="prev" onclick="prev()"
+      style="background-color: #ff7b00; visibility: hidden;">
+      이전
+    </div>
+    <div class="card question-len">
+      <!--진행도-->
+    </div>
+    <div class="card control-button" id="next" onclick="next()"
+      style="background-color: #7fd047; visibility: hidden;">
+      다음
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; margin: auto auto 10px auto; width: fit-content; flex-flow: row wrap; justify-content: center;">
+  <ins name="하단 PC 광고 1" class="adsense_area" pc="pc_banner_1"></ins>
+  <ins name="하단 PC 광고 2" class="adsense_area" pc="pc_banner_2"></ins>
+</div>
+<ins name="하단 모바일 광고 1" class="adfit_area" mobile="mobile_banner_2"></ins>
+
+<div class="loading" style="display: none;">
+  <div class="loading-msg">
+    결과 계산 중...
+  </div>
+</div>
+
+<script>
+  meta_data = {"user": "oono($google#ongr1478)", "user_profile": "/media/users/profile/faf2fa5912b54c4eb5bcdcb2cb285afc.jpeg", "user_verified": false, "title": "\uc0c1\uc2dd \ud034\uc988", "thumbnail": "/media/default/quiz-thumbnail.png", "explanation": "\uc0ac\ub78c\uc774\uba74 \uc54c\ub9cc\ud55c \uc0c1\uc2dd", "q_amount": 20, "q_total": 20, "max_score": 100, "min_score": 0, "q_random": true, "a_random": false, "created_at": 1702922947.179963, "modified_at": 1702923657.194301, "views": 393, "likes": 1, "state": 0, "quiz_version": 3};
+  quiz_data = [[["\ub2e4\uc74c \uc911 \ub178\ubca8 \ubb38\ud559\uc0c1 \uc218\uc0c1\uc790\uac00 \uc544\ub2cc \uc778\ubb3c\uc744 \uace0\ub974\uc2dc\uc624", null], ["\ub9c8\ud06c \ud2b8\uc6e8\uc778", "\ubc25 \ub51c\ub7f0", "\ud5e4\ub974\ub9cc \ud5e4\uc138", "\uc54c\ubca0\ub974 \uce74\ubb88", "\uc708\uc2a4\ud134 \ucc98\uce60"]], [["\ub2e4\uc74c \uc911 \uc81c 1\ucc28 \uc138\uacc4\ub300\uc804\uc774 \ubc1c\ubc1c\ud55c \ub144\ub3c4\ub97c \uace0\ub974\uc2dc\uc624", null], ["1910", "1911", "1912", "1913", "1914"]], [["\ub2e4\uc74c \uc911 \ubc14\ub85c\ud06c \uc74c\uc545\uc73c\ub85c \ubd84\ub958\ub418\ub294 \uc778\ubb3c\uc744 \uace0\ub974\uc2dc\uc624", null], ["\ube44\ubc1c\ub514", "\uc288\ubca0\ub974\ud2b8", "\uba58\ub378\uc2a4\uc874", "\uc0dd\uc0c1\uc2a4", "\ubca0\ud1a0\ubca4"]], [["\ub2e4\uc74c \uc911 \uace0\uc870\uc120\uc758 \uba78\ub9dd\ub144\ub3c4\ub97c \uace0\ub974\uc2dc\uc624", null], ["\uae30\uc6d0\uc804 105\ub144", "\uae30\uc6d0\uc804 106\ub144", "\uae30\uc6d0\uc804 107\ub144", "\uae30\uc6d0\uc804 108\ub144", "\uae30\uc6d0\uc804 109\ub144"]], [["\ucd5c\uaddc\ud558 \uc804 \ub300\ud1b5\ub839\uc740 \uba87\ub300 \ub300\ud1b5\ub839\uc778\uac00?", null], ["\uc81c6\ub300 \ub300\ud1b5\ub839", "\uc81c7\ub300 \ub300\ud1b5\ub839", "\uc81c8\ub300 \ub300\ud1b5\ub839", "\uc81c9\ub300 \ub300\ud1b5\ub839", "\uc81c10\ub300 \ub300\ud1b5\ub839"]], [["\ub2e4\uc74c \uc911 6.25\uc804\uc7c1\uc5d0 \ucc38\uc804\ud558\uc9c0 \uc54a\uc740 \uad6d\uac00\ub97c \uace0\ub974\uc2dc\uc624", null], ["\ucf5c\ub86c\ube44\uc544", "\ud540\ub780\ub4dc", "\ub274\uc9c8\ub79c\ub4dc", "\ud0dc\uad6d", "\uc5d0\ud2f0\uc624\ud53c\uc544"]], [["\ub2e4\uc74c \uc911 \ud604\uc7ac \uad6d\uc655\uc774 \uc874\uc7ac\ud558\uc9c0 \uc54a\ub294 \ub098\ub77c\ub97c \uace0\ub974\uc2dc\uc624", null], ["\ubaa8\ub85c\ucf54", "\uce84\ubcf4\ub514\uc544", "\uc2a4\uc6e8\ub374", "\ud0c4\uc790\ub2c8\uc544", "\ud1b5\uac00"]], [["\ub2e4\uc74c \uc911 \ubc1c\ub871\ub3c4\ub974 \uc218\uc0c1\uc790\uac00 \uc544\ub2cc \uc778\ubb3c\uc744 \uace0\ub974\uc2dc\uc624", null], ["\ucf00\ube48 \ud0a4\uac74", "\uc548\ub4dc\ub9ac \uc170\ube0c\uccb8\ucf54", "\ud30c\uc62c\ub85c \ub85c\uc2dc", "\ud30c\ubca8 \ub124\ub4dc\ubca0\ub4dc", "\uc0ac\ubb34\uc5d8 \uc5d0\ud22c"]], [["\ub2e4\uc74c \uc911 \uc138\uacc4\uc5d0\uc11c \uac00\uc7a5 \ub192\uc740 \ud3ed\ud3ec\ub97c \uace0\ub974\uc2dc\uc624", null], ["\uc774\uacfc\uc218 \ud3ed\ud3ec", "\uc559\ud5ec \ud3ed\ud3ec", "\ub098\uc774\uc544\uac00\ub77c \ud3ed\ud3ec", "\uacfc\uc774\ub77c \ud3ed\ud3ec", "\ube45\ud1a0\ub9ac\uc544 \ud3ed\ud3ec"]], [["\ub2e4\uc74c \uc911 (2023\ub144\ub3c4 \uae30\uc900) \uc138\uacc4\uc5d0\uc11c \uac00\uc7a5 \ub192\uc740 \uac74\ubb3c\uc744 \uace0\ub974\uc2dc\uc624", null], ["\uc5e0\ud30c\uc774\uc5b4 \uc2a4\ud14c\uc774\ud2b8", "\ud0c0\uc774\ubca0\uc774 101", "\uc0c1\ud558\uc774 \ud0c0\uc6cc", "\ud551\uc548 \ud30c\uc774\ub0b8\uc2a4 \uc13c\ud130", "\ubd80\ub974\uc988 \ud560\ub9ac\ud30c"]], [["\ub2e4\uc74c \uc911 \uad6d\uac00\uc758 \uacbd\uc81c\uc5d0\uc11c \uc7ac\ud654\uc640 \uc6a9\uc5ed\uc758 \uc77c\ubc18\uc801\uc774\uace0 \uc9c0\uc18d\uc801\uc778 \ubb3c\uac00\uc758 \ud558\ub77d\uc744 \uc758\ubbf8\ud558\ub294 \uc6a9\uc5b4\ub294?", null], ["\uc778\ud50c\ub808\uc774\uc158", "\ub514\ud50c\ub808\uc774\uc158", "\uc2a4\ud0dc\uadf8\ud50c\ub808\uc774\uc158", "\uc2a4\ud0b4\ud50c\ub808\uc774\uc158", "\uadf8\ub9ac\ub4dc\ud50c\ub808\uc774\uc158"]], [["\ud0dc\uc591\uacc4 \ud589\uc131 \uc911 \uac00\uc7a5 \ub9ce\uc740 \uc704\uc131\uc744 \uac00\uc9c0\uace0 \uc788\ub294 \ud589\uc131\uc740?", null], ["\uae08\uc131", "\ud654\uc131", "\ubaa9\uc131", "\ud1a0\uc131", "\ucc9c\uc655\uc131"]], [["\ub2e4\uc74c \uc911 \ucc9c\ub9cc \uad00\uac1d \ub3cc\ud30c \uc601\ud654\uac00 \uc544\ub2cc\uac83\uc744 \uace0\ub974\uc2dc\uc624", null], ["\uae30\uc0dd\ucda9", "\uc544\ubc14\ud0c02 : \ubb3c\uc758 \uae38", "\uc544\ubc14\ud0c0", "\uc124\uad6d\uc5f4\ucc28", "\uc54c\ub77c\ub518"]], [["\ub2e4\uc74c \uc911 <\ubab8\uc774 \uad73\uace0 \uc5b5\uc138\ub2e4> \uc758 \ub73b\uc744 \uac00\uc9c0\uace0 \uc788\ub294 \uc6b0\ub9ac\ub9d0\uc744 \uace0\ub974\uc2dc\uc624", null], ["\uae4c\uc138\ub2e4", "\uae4d\uc138\ub2e4", "\uac71\uc138\ub2e4", "\uaebd\uc138\ub2e4", "\uac80\uc138\ub2e4"]], [["\ub2e4\uc74c \uc911 <\ud558\ub2ac\ubc14\ub78c> \uc758 \ub73b\uc744 \uace0\ub974\uc2dc\uc624", null], ["\ub3d9\ucabd\uc5d0\uc11c \ubd80\ub294 \ubc14\ub78c", "\uc11c\ucabd\uc5d0\uc11c \ubd80\ub294 \ubc14\ub78c", "\ub0a8\ucabd\uc5d0\uc11c \ubd80\ub294 \ubc14\ub78c", "\ubd81\ucabd\uc5d0\uc11c \ubd80\ub294 \ubc14\ub78c", "\uc0ac\ubc29\uc5d0\uc11c \ubd80\ub294 \ubc14\ub78c"]], [["\ub2e4\uc74c \uc911 \uad50\uac01\uc0b4\uc6b0 (\u77ef\u89d2\u6bba\u725b)\uc758 \ub73b\uc73c\ub85c \uc54c\ub9de\uc740\uac83\uc744 \uace0\ub974\uc2dc\uc624", null], ["\uc815\ub3c4\uc5d0 \uc9c0\ub098\uccd0 \uc624\ud788\ub824 \uc77c\uc744 \uadf8\ub974\uce68", "\uc77c\uc744 \uadf8\ub974\uccd0\uc11c \ub4a4\uc8fd\ubc15\uc8fd\uc784", "\uc0ac\ub9ac\ub098 \ub3c4\ub9ac\uc5d0 \uc5b4\uae0b\ub098 \uc77c\uc744 \uadf8\ub974\uce68", "\uc608\uc0c1\uce58 \ubabb\ud55c \ubcc0\uc218\ub85c \uc77c\uc744 \uadf8\ub974\uce68", "\uc11c\ub85c \uc190\ubc1c\uc774 \ub9de\uc9c0\uc54a\uc544 \uc77c\uc744 \uadf8\ub974\uce68"]], [["\ub2e4\uc74c \uc911 \uc544\uc2dc\uc544 \ud0dc\ud3c9\uc591 \uacbd\uc81c\ud611\ub825\uccb4(APEC) \uac00\uc785\uad6d\uc774 \uc544\ub2cc\uacf3\uc744 \uace0\ub974\uc2dc\uc624", null], ["\uc778\ub3c4\ub124\uc2dc\uc544", "\ud544\ub9ac\ud540", "\ub77c\uc624\uc2a4", "\ub300\ub9cc", "\ubca0\ud2b8\ub0a8"]], [["\ub2e4\uc74c \uc911 \ud604\uc7ac \uc9d5\ubcd1\uc81c\ub97c \uc2dc\ud589\ud558\uace0 \uc788\uc9c0 \uc54a\ub294 \uad6d\uac00\ub97c \uace0\ub974\uc2dc\uc624", null], ["\ud0a4\ub974\ud0a4\uc2a4\uc2a4\ud0c4", "\ub77c\uc624\uc2a4", "\uc774\ub780", "\ubca0\ud2b8\ub0a8", "\uc778\ub3c4\ub124\uc2dc\uc544"]], [["\ub2e4\uc74c \uc911 \ubd81\ub300\uc11c\uc591 \uc870\uc57d \uae30\uad6c NATO \uc758 \ud68c\uc6d0\uad6d\uc774 \uc544\ub2cc\uacf3\uc744 \uace0\ub974\uc2dc\uc624", null], ["\ub8e8\ub9c8\ub2c8\uc544", "\uc54c\ubc14\ub2c8\uc544", "\ubd81\ub9c8\ucf00\ub3c4\ub2c8\uc544", "\ud280\ub974\ud0a4\uc608", "\uc624\uc2a4\ud2b8\ub9ac\uc544"]], [["\ubc94\uc8c4 \uc2e0\uace0\ubc88\ud638\ub294 112, \uc751\uae09.\uc7ac\ub09c \uc2e0\uace0\ubc88\ud638\ub294 119\uc774\ub2e4. \uadf8\ub807\ub2e4\uba74 \uc0ac\uc774\ubc84\ud14c\ub7ec \uc2e0\uace0\ubc88\ud638\ub294 \uba87\ubc88\uc778\uac00?", null], ["125", "122", "118", "114", "111"]]];
+  load_meta();
+  function load_meta() {
+    $("body").css('overflow', 'hidden');
+    $(".quiz-title").text(meta_data["title"]);
+
+    $(".quiz-thumbnail").attr("src", meta_data["thumbnail"]);
+    $(".info-title").text(meta_data["title"]);
+    $(".thumbnail-img").attr("src", meta_data["thumbnail"]);
+    
+    if (meta_data["q_total"] == meta_data["q_amount"]) {
+      $(".info-q_amount").append("총 " + meta_data["q_total"] + "개 문항");
+    }
+    else {
+      $(".info-q_amount").append("총 " + meta_data["q_total"] + "개 문항 중 " + meta_data["q_amount"] + "개 문항");
+    }
+    $(".info-views").append("플레이 : " + meta_data["views"] + "회");
+    $(".info-likes").append("추천 : " + meta_data["likes"] + "회");
+    showNameTag($("#user-tag"), meta_data["user_profile"], meta_data["user"], meta_data["user_verified"]);
+    $(".info-modified").text(datetime(meta_data["modified_at"]));
+    $(".info-modified").attr("title", "최초 등록일 - " + datetime(meta_data["created_at"]) + "\n최종 수정일 - " + datetime(meta_data["modified_at"]));
+    load_quiz();
+  }
+  function info_confirm() {
+    $("body").css("overflow", "unset");
+    $(".overlay").fadeOut();
+  }
+  function make_array(length, format) {
+    if (format == false) {
+      return Array.from({ length: length }, (v, i) => i);
+    }
+    else {
+      return Array.from({ length: length }, () => format);
+    }
+  }
+  function shuffle(array) {
+    var a, b;
+    for (var i = array.length; i > 0; i--) {
+      a = Math.floor(Math.random() * i);
+      b = array[i - 1];
+      array[i - 1] = array[a];
+      array[a] = b;
+    }
+  }
+  function load_quiz() {
+    q_list = make_array(quiz_data.length, false);
+    answers = make_array(quiz_data.length, -1);
+    shuffle(q_list);
+    if (meta_data["q_amount"] != meta_data["q_total"]) {
+      q_list = q_list.slice(0, meta_data["q_amount"]);
+    }
+    if (meta_data["q_random"] == false) {
+      q_list.sort(function(a, b) {
+        return a - b;
+      });
+    }
+    for (var i = 0; i < q_list.length; i++) {
+      load_contents(i);
+    }
+    quiz_num = 0;
+    show_quiz();
+  }
+  function load_contents(q_num) {
+    question_wrap = $("#question_default").clone().prop("id", "question_" + q_num);
+    quiz_question = quiz_data[q_list[q_num]][0][0];
+    quiz_img = quiz_data[q_list[q_num]][0][1];
+    quiz_choice = quiz_data[q_list[q_num]][1];
+    question_wrap.find(".question-number").text((q_num + 1) + ".");
+    question_wrap.find(".question").text(quiz_question);
+    if (quiz_img == null) {
+      question_wrap.find(".question-img-wrap").hide();
+    }
+    else {
+      question_wrap.find(".question-img").attr("src", quiz_img);
+    }
+    a_list = make_array(quiz_choice.length, false);
+    if (meta_data["a_random"] == true) {
+      shuffle(a_list);
+    }
+    question_wrap.find(".answer-wrap").append("<div class='answer' id='answer_" + q_num + "_" + a_list[0] + "' onclick='save_answer(" + a_list[0] + ")'>" + quiz_choice[a_list[0]] + "</div>");
+    for (var i = 1; i < quiz_choice.length; i++) {
+      j = a_list[i]
+      question_wrap.find(".answer-wrap").append("<hr><div class='answer' id='answer_" + q_num + "_" + j + "' onclick='save_answer(" + j + ")'>" + quiz_choice[j] + "</div>");
+    }
+    $("#question_default").before(question_wrap);
+  }
+  function show_quiz() {
+    $("#question_" + quiz_num).show();
+    show_control();
+  }
+  function show_control() {
+    $(".quiz-progress-bar").css("width", quiz_num / q_list.length * 100 + "%");
+    $(".question-len").text((quiz_num + 1) + " / " + q_list.length);
+    if (quiz_num == 0) {
+      $("#prev").css('visibility', 'hidden');
+    }
+    else {
+      $("#prev").css('visibility', 'visible');
+    }
+    if (quiz_num + 1 == q_list.length) {
+      $("#next").css('visibility', 'hidden');
+    }
+    else {
+      if (answers[q_list[quiz_num]] == -1) {
+        $("#next").css('visibility', 'hidden');
+      }
+      else {
+        $("#next").css('visibility', 'visible');
+      }
+    }
+  }
+  function save_answer(quiz_answer) {
+    $("#answer_" + quiz_num + "_" + answers[q_list[quiz_num]]).removeClass("selected");
+    $("#answer_" + quiz_num + "_" + quiz_answer).addClass("selected");
+    answers[q_list[quiz_num]] = quiz_answer;
+    next();
+  }
+  function next() {
+    if (quiz_num + 1 == q_list.length) {
+      $(".quiz-progress-bar").css("width", "100%");
+      send_result();
+    }
+    else {
+      $("#question_" + quiz_num).hide();
+      quiz_num += 1;
+      show_quiz();
+    }
+  }
+  function prev() {
+    $("#question_" + quiz_num).hide();
+    quiz_num -= 1;
+    show_quiz();
+  }
+  function send_result() {
+    $(".loading").show();
+    $.ajax({
+      method: "POST",
+      url: "",
+      data: { csrfmiddlewaretoken: "HGgaKGSf0SsjXWNFpbnigJliiGIWDkS7qsggrwnAZtmlhSnGJq6lG0UoPadH5eH7", answers: JSON.stringify(answers), quiz_version: meta_data["quiz_version"] }
+    })
+      .done(function (data) {
+        var result = data.APIsuccess;
+        location = result;
+      })
+      .fail(function (data) {
+        if (data.status == 0) {
+          alert("네트워크 오류가 발생하였습니다. 잠시 후 다시 시도해보세요.");
+          $(".loading").hide();
+          return;
+        }
+        try {
+          var result = data.responseJSON.APIerror;
+          if (result == "quiz not found") {
+            alert("퀴즈를 찾을 수 없습니다. 게시자 또는 관리자가 해당 퀴즈를 삭제하였습니다.");
+          }
+          else if (result == "quiz is private") {
+            alert("해당 퀴즈는 비공개입니다. 게시자가 해당 퀴즈를 비공개로 전환하였습니다.");
+          }
+          else if (result == "quiz modified") {
+            alert("퀴즈에 변동 사항이 있어 채점이 불가합니다. 최근에 게시자가 해당 퀴즈를 수정하였습니다.");
+          }
+          else {
+            alert("오류가 발생하였습니다. " + result);
+          }
+        }
+        catch {
+          alert("오류가 발생하였습니다.");
+        }
+        $(".loading").hide();
+      });
+  }
+</script>
+
+    </main>
+
+
+    <script>
+        //GOOGLE ADSENSE
+        AdsenseAds = {
+            pc_banner_1: { slot: "8939180234", width: "728", height: "90" },
+            pc_banner_2: { slot: "8003812014", width: "728", height: "90" },
+            pc_banner_3: { slot: "2338112860", width: "728", height: "90" },
+            pc_banner_4: { slot: "5186076987", width: "728", height: "90" },
+            pc_box_1: { slot: "7619834489", width: "300", height: "600" },
+            mobile_banner_1: { slot: "1318984161", width: "300", height: "100" },
+            mobile_banner_2: { slot: "3934087952", width: "300", height: "100" }
+        }
+        function configAdsense() {
+            $(".adsense_area").each(getAd);
+        }
+        function getAd(index, item) {
+            if ($(item).attr("ad") == undefined) {
+                if (window.matchMedia('(min-width: 728px)').matches) {
+                    ad_type = $(item).attr("pc");
+                }
+                else {
+                    ad_type = $(item).attr("mobile");
+                }
+                if (ad_type == undefined) {
+                    removeAd(item);
+                    return;
+                }
+                setFixedAd(item, AdsenseAds[ad_type]);
+            }
+            else {
+                ad_type = $(item).attr("ad");
+                setResponsiveAd(item, AdsenseAds[ad_type]);
+            }
+        }
+        function setResponsiveAd(item, ad) {
+            $(item).addClass("adsbygoogle");
+            $(item).css("display", "block");
+            $(item).attr("data-ad-client", "ca-pub-3334034318594694");
+            $(item).attr("data-ad-slot", ad.slot);
+            $(item).attr("data-ad-format", "auto");
+            $(item).attr("data-full-width-responsive", "true");
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        function setFixedAd(item, ad) {
+            $(item).addClass("adsbygoogle");
+            $(item).css("display", "inline-block");
+            $(item).css("width", ad.width);
+            $(item).css("height", ad.height);
+            $(item).attr("data-ad-client", "ca-pub-3334034318594694");
+            $(item).attr("data-ad-slot", ad.slot);
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        function removeAd(item) {
+            $(item).removeClass();
+        }
+        configAdsense();
+    </script>
+
+    <script>
+        //ADFIT 광고 생성
+        AdfitAds = {
+            pc_banner_1: { unit: "DAN-7hmjAgz5hgrT4fRn", width: "728", height: "90" },
+            pc_banner_2: { unit: "DAN-al31PApYefnAtg8c", width: "728", height: "90" },
+            pc_banner_3: { unit: "DAN-ZNKwUN4cYVligzWu", width: "728", height: "90" },
+            pc_banner_4: { unit: "DAN-xId5Y7JW2IW6L40x", width: "728", height: "90" },
+            pc_box_1: { unit: "DAN-QNxGAXxDTGCwFr8b", width: "300", height: "250" },
+            pc_box_2: { unit: "DAN-qXZjCE0mjj7FAUfW", width: "300", height: "250" },
+            mobile_banner_1: { unit: "DAN-HLT2gNKev7mRwHan", width: "320", height: "100" },
+            mobile_banner_2: { unit: "DAN-g5Gm1liGc6FlEGMi", width: "320", height: "100" },
+            mobile_banner_3: { unit: "DAN-VT9hZMX8d3SEQY0Z", width: "320", height: "100" },
+            mobile_banner_4: { unit: "DAN-E8RYPckXmQyyHq7R", width: "320", height: "100" }
+        }
+        function configAdfit() {
+            $(".adfit_area").each(getAd);
+        }
+        function getAd(index, item) {
+            if (window.matchMedia('(min-width: 728px)').matches) {
+                ad_type = $(item).attr("pc");
+            }
+            else {
+                ad_type = $(item).attr("mobile");
+            }
+            if (ad_type == undefined) {
+                removeAd(item);
+                return;
+            }
+            setAd(item, AdfitAds[ad_type]);
+        }
+        function setAd(item, ad) {
+            $(item).addClass("kakao_ad_area");
+            $(item).attr("data-ad-unit", ad.unit);
+            $(item).attr("data-ad-width", ad.width);
+            $(item).attr("data-ad-height", ad.height);
+        }
+        function removeAd(item) {
+            $(item).removeClass();
+        }
+        configAdfit();
+    </script>
+
+    <!--<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>-->
+
+    <footer style="display: flex;">
+       
+       
+    </footer>
+</body>
+
+</html>
