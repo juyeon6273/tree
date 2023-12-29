@@ -1,0 +1,23 @@
+{
+	"Meta(Acqusition)": {
+		"doc_id": "REPORT-news_r-06017",
+		"doc_category": "REPORT",
+		"doc_type": "news_r",
+		"doc_name": "[채인택의 글로벌 줌업]110년 전 ‘세계 여성의 날’을 만든 까닭은? ",
+		"author": "채인택",
+		"publisher": "중앙일보",
+		"publisher_year": "2020",
+		"doc_origin": "중앙일보"
+	},
+	"Meta(Refine)": {
+		"passage_id": "REPORT-news_r-06017-00002",
+		"passage": " 1977년 12월 유엔총회에선 각국이 자국의 역사와 전통에 따라 1년 중 하루를 ‘여성의 권리와 세계 평화를 위한 유엔의 날’로 준수하도록 결의했다.\n   중요한 것은 유엔이 매년 여성의 날에 맞춰 특별한 모토를 정한다는 사실이다.\n  올해는 ‘나는 평등 세대다: 여성권리 실현하기(I am Generation Equality: Realizing Women’s Rights)‘가 모토다.\n  지난해에는 ’평등을 생각하고, 현명해지며, 변화를 위해 혁신하라(Think Equal, Build Smart, Innovate for Change)‘였다.\n    현실 반영…여성과 폭력·분쟁 관련 모토 많아  유엔의 모토는 동등 권리나 기회 제공에 관한 것도 많지만 여성과 폭력·분쟁과 관련한 것도 적지 않다.\n  1997년 ‘여성과 평화 협상(Women and the Peace Table)’, 1999년 ‘여성에 대한 폭력 없는 세계(World Free of Violence Against Women)’, 2000년 ‘평화를 위해 단결하는 여성(Women Uniting for Peace)’, 2001년 ‘여성과 평화: 여성이 분쟁을 관리한다(Women and Peace: Women Managing Conflicts)’ 등이 그것이다.\n  전 세계적으로 여성을 상대로 하는 폭력이 여전하고, 분쟁 지역에서 여성의 주된 희생자가 되고 있음을 여실히 보여준다.\n   특이한 모토 중 하나는 2002년에 정한 ‘ 오늘날의 아프가니스탄 여성: 현실과 기회(Afghan Women Today: Realities and Opportunities)’였다.\n  특정 국가가 세계 여성의 날 모토에서 언급된 유일한 사례다.\n    탈레반 붕괴하자 아프가니스탄 여성 격려 모토이 모토가 나온 2002년은 아프가니스탄에서 탈레반 정권이 무너진 다음 해다.\n  1994년 조직된 이슬람주의 정치·무장 단체인 탈레반은 1996년 아프가니스탄의 4분의 3을 실효 지배했으며 수도 카불에서 ‘아프가니스탄 에미리트(이슬람 군주국)’라는 이름의 국가를 운영했다.\n  집권 기간 탈레반은 폭정·여성학대·반인권·극단주의, 그리고 소수민족과 소수종파(시아파) 탄압으로 악명이 높았다.\n   정권을 잡은 탈레반은 반대파를 숙청하는 데서 그치지 않고 서방 문화를 전파한다며 방송국을 비롯한 언론을 폐쇄하고 음악을 비롯한 문화 활동을 금지했다.\n  이슬람을 제외한 다른 종교를 금지한 것은 물론 이슬람의 다른 종파(시아파)도 탄압했다.\n ",
+		"passage_Cnt": 1229
+	},
+	"Annotation": {
+		"summary1": "1977년 12월 유엔총회에서는 각국이 1년 중 하루를 여성의 날로 준수하도록 결의했으며 매년 여성의 날에 맞춰 특별한 모토를 정한다.",
+		"summary2": null,
+		"summary3": "지난해에는 ’평등을 생각하고, 현명해지며, 변화를 위해 혁신하라(Think Equal, Build Smart, Innovate for Change)‘였다. 올해는 ‘나는 평등 세대다: 여성권리 실현하기(I am Generation Equality: Realizing Women’s Rights)‘가 모토다. 중요한 것은 유엔이 매년 여성의 날에 맞춰 특별한 모토를 정한다는 사실이다. 1977년 12월 유엔총회에선 각국이 자국의 역사와 전통에 따라 1년 중 하루를 ‘여성의 권리와 세계 평화를 위한 유엔의 날’로 준수하도록 결의했다.",
+		"summary_3_cnt": 301
+	}
+}
