@@ -1,2 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+C:/Users/jyeon/Downloads/022.요약문[[:space:]]및[[:space:]]레포트[[:space:]]생성[[:space:]]데이터/01.데이터/2.Validation/라벨링데이터/VL1 filter=lfs diff=lfs merge=lfs -text

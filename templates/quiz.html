@@ -6,9 +6,9 @@
 <body>
     <h2>퀴즈</h2>
     <form method="POST" action="/quiz">
-        <p>{{ question_data.question }}</p>
+        <p>{{ questions.question }}</p>
         <ul>
-            {% for option in question_data.options %}
+            {% for option in questions.options %}
                 <li>
                     <input type="radio" name="option" value="{{ loop.index }}" id="option{{ loop.index }}">
                     <label for="option{{ loop.index }}">{{ option }}</label>
